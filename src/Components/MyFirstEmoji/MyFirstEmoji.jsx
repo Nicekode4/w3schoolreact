@@ -3,10 +3,11 @@ import { MyFirstEmojiStyle } from './MyFirstEmoji.style'
 
 function MyFirstEmoji() {
   return (
-    <MyFirstEmojiStyle>
-       <div>MyFirstEmoji</div> 
-    </MyFirstEmojiStyle>
-    
+    <>
+    <h1>My First Emoji</h1>
+
+    <p>&#128512;</p>
+    </>
   )
 }
 
